@@ -90,6 +90,11 @@ body {
 .form-header {
   margin-left: 42px;
 }
+.form-header img{
+  width: 23px;
+  height: 23px;
+}
+
 .form {
   height: auto;
   display: flex;
