@@ -1,3 +1,6 @@
+* {
+  font-family: AvenirNextRegular, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+}
 body {
   background: #eceef1;
 }
@@ -63,17 +66,16 @@ body {
   padding: 0;
 }
 .form-header ul {
-  height: 23px;
-  width: 318px;
+  width: 400px;
   overflow: hidden;
   margin-bottom: 15px;
   list-style-type: none;
   margin: auto;
+  display: flex;
+  margin-top: 20px;
 }
 .form-header li {
   text-decoration: none;
-<<<<<<< Updated upstream
-=======
   margin: 3px;
 }
 .form-header span {
@@ -92,6 +94,7 @@ body {
   width: 23px;
   height: 23px;
 }
+
 .form {
   height: auto;
   display: flex;
@@ -195,5 +198,4 @@ body {
   font-size: 12px;
 }
 #terms-text {
->>>>>>> Stashed changes
 }
