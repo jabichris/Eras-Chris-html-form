@@ -72,4 +72,128 @@ body {
 }
 .form-header li {
   text-decoration: none;
+<<<<<<< Updated upstream
+=======
+  margin: 3px;
+}
+.form-header span {
+  padding-right: 5px;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+.form-header a {
+  color: #b3b0b0;
+  text-decoration: none;
+}
+.form-header {
+  margin-left: 42px;
+}
+.form-header img{
+  width: 23px;
+  height: 23px;
+}
+.form {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.form-signup {
+  width: 420px;
+  height: auto;
+  text-align: center;
+  background-color: #fff;
+  border-width: 1px;
+  border-color: #d1d1d1;
+  border-style: solid;
+}
+.form-signup h3 {
+  font-weight: lighter;
+  color: #535353;
+}
+.form-signup h5 {
+  font-weight: lighter;
+  color: #535353;
+}
+.form-signup a {
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  margin-top: 0;
+  font-weight: lighter;
+  font-size: 12px;
+}
+.form-fieldset {
+  padding-top: 20px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 15px;
+}
+.form-fieldset input {
+  border-width: 1px;
+  border-color: #d3d3d3;
+  width: 89.45%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  height: 30px;
+  border-style: solid;
+  padding-left: 5px;
+  padding-right: 30px;
+}
+.form-fieldset span {
+  padding-bottom: 17px;
+  padding-top: 5px;
+  font-size: 11px;
+  color: #444;
+}
+#password {
+  background-image: url(./images/lock.png);
+  background-position: right center;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-size: 17px 17px;
+  background-position-x: 97%;
+}
+#submit-btn {
+  background: #0077c5;
+  border: #0077c5;
+  width: 100%;
+  height: 44px;
+  border-radius: 4px;
+}
+#btn-image {
+  height: 1em;
+  width: 0.8em;
+  /* margin-top: 2px; */
+  margin-right: 4px;
+  vertical-align: text-top;
+  display: inline-block;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/icon-whitelock@3x.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 15px;
+}
+#btn-text {
+  margin-top: 3px;
+  color: #fff;
+  font-size: 15px;
+}
+.signup-action {
+  width: 380px;
+  height: 44px;
+  margin: auto;
+}
+.form-footer {
+  text-align: center;
+}
+.terms {
+  font-style: italic;
+  color: #757575;
+  font-size: 12px;
+}
+#terms-text {
+>>>>>>> Stashed changes
 }
