@@ -152,11 +152,15 @@ body {
   padding-left: 5px;
   padding-right: 30px;
 }
+#phone {
+  margin-bottom: 0px;
+}
 .form-fieldset span {
   padding-bottom: 17px;
   padding-top: 5px;
-  font-size: 11px;
+  font-size: 10px;
   color: #444;
+  text-align: left;
 }
 #password {
   background-image: url(./images/lock.png);
@@ -207,6 +211,20 @@ body {
   color: #757575;
   font-size: 12px;
 }
+
+.footer-row {
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
+  list-style: none;
+  color: #505050;
+  font-size: 12px;
+  margin-top: 30px;
+  padding: 5px, 0px, 0px;
+  text-align: center;
+}
+.footer-row a {
+  text-decoration: none;
+  color: #505050;
+}
 #terms-text a {
   color: #0077c5;
   font-weight: 400;
@@ -239,4 +257,34 @@ body {
 .sub-header {
   width: 318px;
   margin: auto;
+}
+.footer-row li {
+  display: inline;
+  text-decoration: none;
+}
+.footer-link-container {
+  font-size: 12px;
+  margin: 0 auto;
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.footer-row {
+  margin-top: 0px;
+}
+.footer-row footer-copyright {
+  outline: none;
+  width: 60%;
+  text-align: center;
+  line-height: 1.5;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+span.foot {
+  margin-top: 0px;
+}
+footer {
+  margin-top: 30px;
 }
