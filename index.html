@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,44 +12,172 @@
     />
   </head>
   <body>
-    <section>
-      <div class="signin-header">
-        <div class="header-content">
-          <div class="login-link">
-            <div>Already have an Intuit account?</div>
-            <a id="forgot-pwd" href="#">I forgot my User ID or Password</a>
-          </div>
-          <div class="signin-btn">
-            <button id="sign-in-btn">
-              <span class="white-lock"></span>
-              Sign In
-            </button>
-          </div>
+    <div class="signin-header">
+      <div class="header-content">
+        <div class="login-link">
+          <div>Already have an Intuit account?</div>
+          <a id="forgot-pwd" href="#">I forgot my User ID or Password</a>
+        </div>
+        <div class="signin-btn">
+          <button id="sign-in-btn">
+            <span class="white-lock"></span>
+            Sign In
+          </button>
         </div>
       </div>
-      <header id="header">
-        <div class="logo">
-          <a id="brand" href="#" aria-label="intuit"></a>
+    </div>
+    <header id="header">
+      <div class="logo">
+        <a href='#'><img src="images/intuit.png" /></a>
+      </div>
+    </header>
+    <div class="main-container">
+      <div>
+        <div class="form-header">
+          <ul>
+            <li>
+              <img
+                src="images/mint-favicon.svg"
+                rel="shortcut icon"
+                alt="turbotax"
+              />
+            </li>
+            <li>
+              <span>
+                <a href="#">mint</a>
+              </span>
+            </li>
+            <li>
+              <a>
+                <img
+                  src="images/quickbooks.svg"
+                  rel="shortcut icon"
+                  alt="turbotax"
+                />
+              </a>
+            </li>
+            <li>
+              <span>
+                <a href="#">quickbooks</a>
+              </span>
+            </li>
+            <li>
+              <a>
+                <img
+                  src="images/turbotax.jpg"
+                  rel="shortcut icon"
+                  alt="turbotax"
+                />
+              </a>
+            </li>
+            <li>
+              <span>
+                <a href="#">turbotax</a>
+              </span>
+            </li>
+          </ul>
         </div>
-      </header>
-      <section>
-        <div class="main-container">
-          <div>
-            <div class="form-header">
-              <ul>
-                <li>
-                  <a>
-                    <img src="images/turbotax.jpg" rel="shortcut icon" alt="turbotax" style="width: 23px; height: 23px;"/>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">turbotax</a>
-                </li>
-              </ul>
+      </div>
+      <div class="form">
+        <div class="form-part">
+          <form class="form-signup">
+            <h3>Create an Intuit account</h3>
+            <div class="sub-header">
+              <span class="header-prompt">
+                One account for everything Intuit, including Mint.
+                <a href="#">Learn more</a>
+              </span>
             </div>
-          </div>
+            <fieldset class="form-fieldset">
+              <label for="email">Email address</label>
+              <input id="email" type="email" name="email" required />
+              <label for="phone">Phone (recommended)</label>
+              <input id="phone" type="tel" name="phone" required />
+              <span>Standard call, messaging or data rates may apply.</span>
+              <label for="password">Password</label>
+              <input
+                id="password"
+                class="password"
+                type="password"
+                name="password"
+                required
+              />
+            </fieldset>
+            <div class="signup-action">
+              <button id="submit-btn">
+                <span id="btn-image"></span>
+                <span id="btn-text">Create Account</span>
+              </button>
+            </div>
+            <footer class="form-footer">
+              <span class="terms">
+                <span id="terms-text">
+                  By clicking
+                  <span id="use-btn-name">
+                    Create account
+                  </span>
+                  , you agree to our
+                  <br />
+                  <a href="https://www.mint.com/terms" target="_blank">Terms</a>
+                  <span>
+                    and have read and acknowledge our
+                  </span>
+                  <a href="https://security.intuit.com/privacy" target="_blank"
+                    >Privacy Statement</a
+                  >
+                </span>
+                .
+              </span>
+            </footer>
+            <div class="policies">
+              <span class="terms-of-use">
+                <span>
+                  Invisible reCAPTCHA by Google
+                  <a
+                    href="https://www.google.com/intl/en/policies/privacy/"
+                    target="_blank"
+                  >
+                    Privacy Policy
+                  </a>
+                  <span>
+                    and
+                  </span>
+                  <a
+                    href="https://www.google.com/intl/en/policies/terms/"
+                    target="_blank"
+                    >Terms of Use</a
+                  >
+                  .
+                </span>
+              </span>
+            </div>
+          </form>
         </div>
-      </section>
-    </section>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-row">
+        <ul class="footer-link-container">
+          <li>
+            <a href="#" target="_blank">Legal</a>
+          </li>
+          <li>
+            <a href="#" target="_blank">Privacy</a>
+          </li>
+          <li>
+            <a href="#" target="_blank">Security</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-row footer-copyright">
+        <span class="foot">
+          &copy; 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+          TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+          <br />
+          Terms, conditions, features, support, pricing and service options
+          subject to change without notice.
+        </span>
+      </div>
+    </footer>
   </body>
 </html>
